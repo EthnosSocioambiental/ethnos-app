@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethnos App - Gestão Ambiental</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #2e7d32;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #1b5e20;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero h1 {
+      color: #2e7d32;
+    }
+    .features, .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    .features div, .benefits div {
+      flex: 1 1 250px;
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2e7d32;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 18px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #eeeeee;
+      padding: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ethnos_logo.gif" alt="Logo Ethnos" style="max-height: 80px;">
+    <h1>Ethnos App</h1>
+    <p>Tecnologia a serviço da gestão ambiental</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#funcionalidades">Funcionalidades</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre" class="hero">
+    <h1>Simplifique a gestão ambiental da sua organização</h1>
+    <p>O Ethnos App é uma plataforma desenvolvida para consultorias, prefeituras e empresas que precisam organizar suas licenças, documentos e condicionantes ambientais com segurança e eficiência.</p>
+  </section>
+
+  <section id="funcionalidades">
+    <h2>Funcionalidades</h2>
+    <div class="features">
+      <div>
+        <h3>Cadastro de Clientes</h3>
+        <p>Registre todas as informações dos seus clientes com facilidade.</p>
+      </div>
+      <div>
+        <h3>Gerenciamento de Documentos</h3>
+        <p>Inclua licenças, alvarás, autorizações e certificados com validade e prazos.</p>
+      </div>
+      <div>
+        <h3>Alertas Inteligentes</h3>
+        <p>Receba avisos automáticos sobre vencimentos de documentos e condicionantes.</p>
+      </div>
+      <div>
+        <h3>Upload de Arquivos</h3>
+        <p>Armazene digitalmente todos os documentos em um só lugar.</p>
+      </div>
+      <div>
+        <h3>Exportação e Relatórios</h3>
+        <p>Gere relatórios em PDF e Excel com poucos cliques.</p>
+      </div>
+      <div>
+        <h3>Dashboard Interativo</h3>
+        <p>Acompanhe o desempenho com gráficos e indicadores.</p>
+      </div>
+    </div>
+    <div class="cta">
+      <a href="https://huggingface.co/spaces/SEU_USUARIO/SEU_APP">Acessar Plataforma</a>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Fale conosco</h2>
+    <form action="https://formspree.io/f/xyyqqakg" method="POST">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="message" rows="5" placeholder="Sua mensagem"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Ethnos Socioambiental. Todos os direitos reservados.</p>
+    <p>Email: consultoriaethnos@gmail.com | WhatsApp: (88) 99670-6537</p>
+  </footer>
+</body>
+</html>
